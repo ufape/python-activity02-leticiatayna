@@ -26,21 +26,23 @@ R2 = -2.712
 
 
 def main():
+
     a = float(input("Digite o valor A: "))
-    b = float(input("digite o valor B: "))
+    b = float(input("Digite o valor B: "))
     c = float(input("Digite o valor C: "))
-
-
-
-    delta = b**2 - 4*a*c
-
-    if a = 0 or delta < 0:
-      print ("Impossivel calcular.")
+  
+  
+    delta = b**2 - 4*a*c 
+  
+    if a == 0 or delta < 0:
+       print("Impossível calcular.")
     else:
       r1 = (-b + delta**0.5) / (2*a)
-      r2 = (-b - delta**0.5) / (2*a)
-      print(f"R1 = {r1:.3f}")
-      print(f"R2 = {r2:.3f}")
+      r2 = (-b - delta**0.5) / (2*a) 
+  
+      print(f"R1 = {r1: .3f}")
+      print(f"R2 = {r2: .3f}")
+    
 
 
 if __name__ == '__main__':
